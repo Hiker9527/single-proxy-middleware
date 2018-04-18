@@ -1,0 +1,40 @@
+{
+  "name": "single-proxy-middleware",
+  "version": "1.0.0",
+  "description": "针对单个路径的代理Express/Koa中间件",
+  "main": "index.js",
+  "keywords": [
+    "proxy",
+    "middleware"
+  ],
+  "scripts": {
+    "lint": "eslint --plugin markdown --ext js,md .",
+    "test": "mocha --reporter spec --bail --check-leaks test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hiker9527/single-proxy-middleware.git"
+  },
+  "author": "Hiker9527",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Hiker9527/single-proxy-middleware/issues"
+  },
+  "homepage": "https://github.com/Hiker9527/single-proxy-middleware#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-markdown": "^1.0.0-beta.6",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "http-proxy": "^1.16.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.1.0",
+    "supertest": "^3.0.0"
+  }
+}
